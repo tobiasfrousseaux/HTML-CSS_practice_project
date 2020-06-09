@@ -1,0 +1,200 @@
+:root {
+  --pink-color: #36BC57;
+  --box: 0 0 3px #c1bcbc;
+}
+
+
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  font-size: 12px;
+  font-family: Helvetica;
+} 
+
+nav {
+  display: flex;
+  padding: 10px;
+  background-color: #36BC57;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  padding-right: 10px;
+  list-style: none;
+  padding-left: 20px;
+}
+
+nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  color: white;
+}
+label {
+  font-size: 15px;
+  text-align: left;
+}
+
+.main_section {
+  padding: 10%;
+  text-align: center;
+  font-size: 17px;
+}
+
+.products {
+  background-image: url("../images/vectores-lineas-png-5.png");
+  max-height: 50px;
+  background-size: cover;
+  background-position: center top;
+  padding: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  padding: 10px;
+  margin-top: -390px;
+}
+
+.product .content {
+  background-color: white;
+  padding: 20px;
+  box-shadow: var(--box);
+}
+
+.img_content {
+  text-align: center;
+  height: 180px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.main_button {
+  background-color:#36BC57;
+  width: 100%;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  border-radius: 3px;
+  text-decoration: none;
+  border: 0;
+  cursor: pointer;
+}
+
+.main_button:hover {
+  background-color: #25853d;
+}
+
+.recommend {
+  justify-content: center;
+  margin: 15px;
+  display: flex;
+
+  border-top: 3px;
+  border-color: grey;
+}
+
+.reason {
+  padding: 30px;
+  width: 400px;
+}
+
+.reasoncontent {
+  padding: 20px;
+  text-align: center;
+}
+
+
+.reasonimg {
+  width: 195px;
+  height: 120px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.opinions {
+  justify-content: center;
+  padding: 15%;
+  max-height: 100px;
+  display: flex;
+  padding-top: 0px;
+}
+
+.opinion {
+  padding: 30px;
+}
+
+.opinionimg {
+  height: 150px;
+  width: 230px;
+  overflow: hidden;
+  position: relative;
+}
+
+.opinioncontent {
+  text-align: center;
+  box-shadow: var(--box);
+  width: 230px;
+  height: 230px;
+}
+
+.opiniontitle {
+  padding-top: 5%;
+  text-align: center;
+  border-top:solid 3px #c1bcbc;
+  margin-top: 3px;
+}
+.options {
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-top: 60px;
+}
+.logohomeimg {
+  width: 170px;
+  height: 40px;
+}
+.modulo_pago {
+  background-color: white;
+  box-shadow: 0 0 3px #c1bcbc;
+  padding: 10px;
+  text-align: center;
+}
+.modulo_pagoimg {
+  max-width: 150px;
+  text-align: center;
+  margin:auto;
+  width: 100%;
+}
+.data {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 35px;
+  border-radius: 2px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_button {
+  margin-top: 10px;
+}

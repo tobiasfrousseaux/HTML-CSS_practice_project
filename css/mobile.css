@@ -1,0 +1,21 @@
+@media (max-width: 600px) {
+    .products {
+        display: inherit;
+        height: auto;
+        max-height: inherit;
+    }
+    .product {
+        margin-top: auto;
+    }
+    .main_section {
+        padding: 5%;
+    }
+    .recommend, .opinions {
+        display: inherit;
+        margin: 0 auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
